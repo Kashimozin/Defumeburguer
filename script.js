@@ -3,22 +3,22 @@
 const WA = "https://wa.me/5511999999999?text=Ol%C3%A1%20D%C3%AAfum%C3%AA%2C%20quero%20fazer%20um%20pedido!";
 
 const PRODUCTS = [
-  {id:"defume-classic",name:"Dêfumê Classic",category:"Signature",
-    ingredients:"Blend 180g, cheddar defumado, bacon caramelizado, cebola roxa, picles, molho da casa, pão brioche.",
-    description:"O ícone da casa. Defumado por 12 horas em lenha de nogueira até o sabor invadir cada fibra da carne.",
-    price:"R$ 42",badge:"Mais Pedido",image:"assets/hero-burger.jpg"},
-  {id:"smash-duplo",name:"Smash Duplo",category:"Smash",
-    ingredients:"Dois smash 90g, dobro de cheddar americano, picles, mostarda e maionese defumada.",
-    description:"Duas camadas selando o suco no ponto exato. Crocante por fora, absurdo por dentro.",
-    price:"R$ 36",image:"assets/burger-classic.jpg"},
-  {id:"bbq-lenha",name:"BBQ na Lenha",category:"Defumados",
-    ingredients:"Blend 200g, cheddar, cebolas caramelizadas em cerveja, bacon crocante, BBQ artesanal.",
-    description:"A fumaça vira personagem. Aroma que atravessa a mesa antes do primeiro toque.",
-    price:"R$ 48",badge:"Especial",image:"assets/burger-bbq.jpg"},
-  {id:"fogo-verde",name:"Fogo Verde",category:"Picantes",
-    ingredients:"Blend 180g, pepper jack, jalapeño, geleia de pimenta verde, chipotle da casa.",
-    description:"Verde cana com atitude. Sobe pelo nariz, desce pela alma.",
-    price:"R$ 45",badge:"Novo",image:"assets/burger-spicy.jpg"},
+  {id:"Burger Defumezito",name:"Burger Defumezito",category:"Classico",
+    ingredients:"Delicioso burger com creme de cheddar, molho aiole e cebola inatura. Carne smash 70g. Simples e gostoso..",
+    description:"Delicioso burger com creme de cheddar, molho aiole e cebola inatura. Carne smash 70g. Simples e gostoso.",
+    price:"R$ 20,00",badge:"Mais Pedido",image:"assets/defumezito.jpeg"},
+  {id:"Burger Nordestão",name:"Burger Nordestão",category:"Exclusivo",
+    ingredients:"Delicioso burger feito com pão brioche, banana frita, maionese sem adição de ovos, melaço, bacon blend de 130g e com queijo mussarela. Este burger é uma combinação perfeita.",
+    description:"Delicioso burger feito com pão brioche, banana frita, maionese sem adição de ovos, melaço, bacon blend de 130g e com queijo mussarela. Este burger é uma combinação perfeita.",
+    price:"R$ 37,00",badge:"Mais pedido",image:"assets/nordestao.jpeg"},
+  {id:"Burger Na Brasa",name:"Burger Na Brasa",category:"Amados",
+    ingredients:"Uma boa opção para quem busca um hambúrguer robusto e saboroso. Prove nosso suculento Na Brasa! Molho especial, bacon, molho cheddar, barbecue, cebola caramelizada.",
+    description:"Uma boa opção para quem busca um hambúrguer robusto e saboroso. Prove nosso suculento Na Brasa! Molho especial, bacon, molho cheddar, barbecue, cebola caramelizada.",
+    price:"R$ 29,00",badge:"Mais pedido",image:"assets/na-brasa.jpeg"},
+  {id:"Burger Supremo",name:"Burger Supremo",category:"Amados",
+    ingredients:"Pão Australiano, bacon em cubos,barbecue, cebola caramelizada, cheddar e molho aioli",
+    description:"Pão Australiano, bacon em cubos,barbecue, cebola caramelizada, cheddar e molho aioli",
+    price:"R$ 28,00",badge:"Especial",image:"assets/supremo.jpeg"},
   {id:"trufado",name:"Trufado Real",category:"Premium",
     ingredients:"Blend 200g, queijo suíço, cogumelos ao vinho, aioli de trufa negra, brioche dourado.",
     description:"Terra, floresta e fogo em um só ato. Ingrediente raro, execução meticulosa.",
@@ -30,9 +30,9 @@ const PRODUCTS = [
 ];
 
 const GALLERY = [
-  "assets/hero-burger.jpg","assets/gallery-grill.jpg","assets/burger-bbq.jpg",
-  "assets/gallery-fries.jpg","assets/burger-truffle.jpg","assets/gallery-beer.jpg",
-  "assets/burger-spicy.jpg","assets/burger-classic.jpg"
+  "assets/hero-burger.jpg","assets/muie.jpg","assets/trabaio.jpg",
+  "assets/gallery-fries.jpg","assets/gostoso.jpg","assets/duas mãos.jpg",
+  "assets/molhado.jpg","assets/mo-fome.jpg"
 ];
 
 const $ = (sel, root=document) => root.querySelector(sel);
